@@ -1,0 +1,50 @@
+ACTIVIDAD 5 - EVIDENCIA DE MLFLOW
+MLflow version: 3.17.2
+Experiment: Actividad5_Comparacion_Modelos
+Experiment ID: 1
+=======================================================
+
+MODEL: Random Forest
+Run ID: 1b73258958c049db907f02ffe311898e
+Status: FINISHED
+
+HYPERPARAMETERS:
+  cv_folds: 5
+  dataset_sha256: e096882d29158a1d790a333aad4ce19cc5beb33166f18f51358b5ab6fad1b36a
+  model__max_depth: 8
+  model__min_samples_leaf: 1
+  model__n_estimators: 200
+  random_state: 42
+  test_size: 0.2
+
+METRICS:
+  accuracy: 0.964912
+  cv_auc_mean: 0.989112
+  cv_auc_std: 0.006721
+  f1: 0.950000
+  precision: 1.000000
+  recall: 0.904762
+  roc_auc: 0.994048
+-------------------------------------------------------
+
+MODEL: Logistic Regression
+Run ID: 0a7c247d401b4d1ea5be27ba79714832
+Status: FINISHED
+
+HYPERPARAMETERS:
+  cv_folds: 5
+  dataset_sha256: e096882d29158a1d790a333aad4ce19cc5beb33166f18f51358b5ab6fad1b36a
+  model__C: 1
+  model__class_weight: None
+  random_state: 42
+  test_size: 0.2
+
+METRICS:
+  accuracy: 0.973684
+  cv_auc_mean: 0.995872
+  cv_auc_std: 0.004650
+  f1: 0.963855
+  precision: 0.975610
+  recall: 0.952381
+  roc_auc: 0.996032
+-------------------------------------------------------

@@ -1,0 +1,24 @@
+{
+  "dataset_source": "scikit-learn load_breast_cancer (UCI Wisconsin Diagnostic Breast Cancer)",
+  "target_original": "0=malignant, 1=benign",
+  "target_cleaned": "1=malignant, 0=benign",
+  "original_rows": 569,
+  "cleaned_rows": 569,
+  "predictor_columns": 30,
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "class_counts": {
+    "0": 357,
+    "1": 212
+  },
+  "outliers_IQR_top_5": {
+    "area_error": 65,
+    "radius_error": 38,
+    "perimeter_error": 38,
+    "worst_area": 35,
+    "smoothness_error": 30
+  },
+  "raw_sha256": "0dd56a691f0a76b4e3c1729d327ef2161c3ff5926f4f26f729a596477fab273a",
+  "clean_sha256": "e096882d29158a1d790a333aad4ce19cc5beb33166f18f51358b5ab6fad1b36a",
+  "scaling": "Performed in the training-fold pipeline, not globally before splitting"
+}
